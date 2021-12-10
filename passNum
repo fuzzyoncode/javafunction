@@ -1,0 +1,33 @@
+package com.company;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        int myVal = passNum(2,6,6); //38
+        int myVal2 = passNum(6,-4,-8); //38
+
+        if (myVal == myVal2){
+            System.out.println("we are equal ");
+        }
+
+
+
+        System.out.println(myVal == myVal2);
+
+
+
+    }
+
+    //a functioning function
+    public static int passNum (int number1, int number2, int number3){
+
+
+        return number1 + (number2 * number3);
+
+
+    }
+
+
+
+}
